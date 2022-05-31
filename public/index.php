@@ -27,10 +27,10 @@ $autoloader = require 'vendor/autoload.php'; // Enter the path to autoload.php, 
 
 
 // Load our Constants
-require 'constants.php'; // Enter the path to constants file.
+require 'config/constants.php'; // Enter the path to constants file.
 
 // Load our Routes
-require 'routes.php'; // Enter the path to routes file.
+require 'config/routes.php'; // Enter the path to routes file.
 
 
 // Setup our Container
