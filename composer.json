@@ -1,5 +1,5 @@
 {
     "require": {
-        "pith/framework": "^0.18.0"
+        "pith/framework": "dev-dev"
     }
 }

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d37d1a58fc1e603e3f9094d081157a35",
+    "content-hash": "95b35c897ad67d03c6544f80f2d28517",
     "packages": [
         {
             "name": "ikm/copyright-year-utility",
@@ -517,16 +517,16 @@
         },
         {
             "name": "pith/framework",
-            "version": "v0.18.0",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ian-maurmann/pith-framework.git",
-                "reference": "ac93fc30139c80983f4709109d4af2c987b72f54"
+                "reference": "e2366ba70c08a02df88f91c8ab76ade603e54dfe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ian-maurmann/pith-framework/zipball/ac93fc30139c80983f4709109d4af2c987b72f54",
-                "reference": "ac93fc30139c80983f4709109d4af2c987b72f54",
+                "url": "https://api.github.com/repos/ian-maurmann/pith-framework/zipball/e2366ba70c08a02df88f91c8ab76ade603e54dfe",
+                "reference": "e2366ba70c08a02df88f91c8ab76ade603e54dfe",
                 "shasum": ""
             },
             "require": {
@@ -610,9 +610,9 @@
             "description": "Pith Framework - Another simple framework for PHP sites",
             "support": {
                 "issues": "https://github.com/ian-maurmann/pith-framework/issues",
-                "source": "https://github.com/ian-maurmann/pith-framework/tree/v0.18.0"
+                "source": "https://github.com/ian-maurmann/pith-framework/tree/dev"
             },
-            "time": "2022-05-29T04:51:14+00:00"
+            "time": "2022-05-31T04:29:51+00:00"
         },
         {
             "name": "psr/container",
@@ -938,7 +938,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "pith/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
