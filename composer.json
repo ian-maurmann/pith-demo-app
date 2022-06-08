@@ -1,5 +1,29 @@
 {
+    "name": "pith/demo-app",
+    "description": "Pith Demo App",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MPL-2.0",
     "require": {
         "pith/framework": "dev-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\DemoApp\\DemoThemePack\\": [
+                "src/packs/demo-theme-pack/",
+                "src/packs/demo-theme-pack/demo-landing-layout",
+                "src/packs/demo-theme-pack/demo-main-layout",
+                "src/packs/demo-theme-pack/demo-main-sidebar"
+            ],
+            "Pith\\DemoApp\\DemoPagesPack\\": [
+                "src/packs/demo-pages-pack/",
+                "src/packs/demo-pages-pack/index-page",
+                "src/packs/demo-pages-pack/lorem-ipsum"
+            ]
+        }
     }
 }
