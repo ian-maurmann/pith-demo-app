@@ -25,8 +25,8 @@ class LoremIpsumRoute extends PithRoute
     public $access_level = 'world';
     // public $action       = '\\Pith\\DemoApp\\DemoPagesPack\\LoremIpsumAction';
     // public $preparer     = '\\Pith\\DemoApp\\DemoPagesPack\\LoremIpsumPreparer';
-    public $use_layout   = false;
-    // public $layout       = '\\Pith\\DemoApp\\DemoThemePack\\DemoMainLayoutRoute';
+    public $use_layout   = true;
+    public $layout       = '\\Pith\\DemoApp\\DemoThemePack\\DemoMainLayoutRoute';
     public $view         = '[^route_folder]/lorem-ipsum-view.phtml';
     public $view_adapter = '\\Pith\\PhtmlViewAdapter2\\PithPhtmlViewAdapter2';
 }
