@@ -17,8 +17,8 @@ namespace Pith\DemoApp\DemoThemePack;
 use Pith\Framework\PithViewRequisition;
 
 /**
- * Class JelloLayoutViewRequisition
- * @package Pith\ExampleAirshipPack
+ * Class DemoMainLayoutViewRequisition
+ * @package Pith\DemoApp\DemoThemePack
  */
 class DemoMainLayoutViewRequisition extends PithViewRequisition
 {
@@ -28,6 +28,6 @@ class DemoMainLayoutViewRequisition extends PithViewRequisition
     {
         // Headers
         $this->addHeader('Use UTF-8 Encoding', 'Content-Type: text/html; charset=utf-8');
-        $this->addHeader('Show site runs PHP 8', 'X-Powered-By: PHP/8');
+        $this->addHeader('Show site runs PHP 8.1', 'X-Powered-By: PHP/8.1');
     }
 }

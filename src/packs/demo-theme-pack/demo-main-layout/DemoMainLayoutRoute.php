@@ -26,4 +26,5 @@ class DemoMainLayoutRoute extends PithRoute
     public $access_level     = 'world';
     public $view             = '[^route_folder]/demo-main-layout-view.phtml';
     public $view_adapter     = '\\Pith\\PhtmlViewAdapter2\\PithPhtmlViewAdapter2';
+    public $view_requisition = '\\Pith\\DemoApp\\DemoThemePack\\DemoMainLayoutViewRequisition';
 }
