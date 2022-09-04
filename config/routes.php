@@ -11,6 +11,7 @@ declare(strict_types=1);
 const APP_ROUTES = [
     ['GET', '/',                          '\\Pith\\DemoApp\\DemoPagesPack\\IndexRoute'],
     ['GET', '/lorem-ipsum',               '\\Pith\\DemoApp\\DemoPagesPack\\LoremIpsumRoute'],
-    ['GET', '/jello',                     '\\Pith\\ExampleAirshipPack\\JelloRoute'],
-    ['GET', '/library/foo/{filepath:.+}', '\\Pith\\ExampleResourcePack\\FooResourceRoute'],
+    ['GET', '/john-1',                    '\\Pith\\DemoApp\\DemoPagesPack\\John1Route'],
+    ['GET', '/jello',                     '\\Pith\\ExampleAirshipPack\\JelloRoute'], // TODO REMOVE Jello Example
+    ['GET', '/library/foo/{filepath:.+}', '\\Pith\\ExampleResourcePack\\FooResourceRoute'], // TODO REMOVE Foo Example
 ];
