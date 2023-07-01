@@ -9,7 +9,7 @@
     ],
     "license": "MPL-2.0",
     "require": {
-        "pith/framework": "dev-dev"
+        "pith/framework": "^0.28.0"
     },
     "autoload": {
         "psr-4": {
