@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Lorem Ipsum Route
+ * John 1 Route
  * -----------------
  *
  * @noinspection PhpPropertyNamingConventionInspection - Ignore.
@@ -15,18 +15,16 @@ namespace Pith\DemoApp\DemoPagesPack;
 use Pith\Framework\PithRoute;
 
 /**
- * Class LoremIpsumRoute
+ * Class John1Route
  * @package Pith\DemoApp\DemoPagesPack
  */
-class LoremIpsumRoute extends PithRoute
+class John1Route extends PithRoute
 {
     public $pack         = '\\Pith\\DemoApp\\DemoPagesPack\\DemoPagesPack';
     public $route_type   = 'page';
     public $access_level = 'world';
-    // public $action       = '\\Pith\\DemoApp\\DemoPagesPack\\LoremIpsumAction';
-    // public $preparer     = '\\Pith\\DemoApp\\DemoPagesPack\\LoremIpsumPreparer';
     public $use_layout   = true;
     public $layout       = '\\Pith\\DemoApp\\DemoThemePack\\DemoMainLayoutRoute';
-    public $view         = '[^route_folder]/lorem-ipsum-view.phtml';
+    public $view         = '[^route_folder]/john-1-view.phtml';
     public $view_adapter = '\\Pith\\PhtmlViewAdapter2\\PithPhtmlViewAdapter2';
 }

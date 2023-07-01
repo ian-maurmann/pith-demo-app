@@ -22,7 +22,8 @@
             "Pith\\DemoApp\\DemoPagesPack\\": [
                 "src/packs/demo-pages-pack/",
                 "src/packs/demo-pages-pack/index-page",
-                "src/packs/demo-pages-pack/lorem-ipsum"
+                "src/packs/demo-pages-pack/lorem-ipsum",
+                "src/packs/demo-pages-pack/john-1"
             ]
         }
     }
