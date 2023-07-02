@@ -91,7 +91,7 @@ try {
 
 if($pith) {
     // Add route list to config
-    $pith->config->route_list_namespace = '\\Pith\\Framework\\SharedInfrastructure\\SharedInfrastructureRouteList'; // <---- 6) Add namespace of your Route List here
+    $pith->config->route_list_namespace = '\\Pith\\DemoApp\\DemoAppRouteList'; // <---- 6) Add namespace of your Route List here
 
     // Start
     $pith->engine->start();
