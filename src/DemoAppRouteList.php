@@ -35,5 +35,6 @@ class DemoAppRouteList extends PithRouteList
         ['route',       'GET',           '/resources/framework/shared-ui/{filepath:.+}',     '\\Pith\\Framework\\SharedUiResourcePack\\SharedUiApplicationResourceRoute'],
         ['route',       'GET',           '/resources/vendor/common-fonts/{filepath:.+}',     '\\Pith\\Framework\\CommonFontsResourcePack\\CommonFontsResourceRoute'],
         ['route',       'GET',           '/resources/vendor/common-libraries/{filepath:.+}', '\\Pith\\Framework\\CommonLibrariesResourcePack\\CommonLibrariesResourceRoute'],
+        ['route',       ['GET', 'POST'], '/home',                                            '\\Pith\\DemoApp\\DemoAppPagesPack\\HomeRoute'],
     ];
 }
