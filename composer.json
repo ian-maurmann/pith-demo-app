@@ -29,7 +29,7 @@
             ],
             "Pith\\DemoApp\\DemoAppThemePack\\": [
                 "src/packs/demo-app-theme-pack/",
-                "src/packs/demo-app-theme-pack/demo-app-main-layout"
+                "src/packs/demo-app-theme-pack/main-layout"
             ]
         }
     }
