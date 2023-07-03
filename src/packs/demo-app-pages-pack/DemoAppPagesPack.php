@@ -1,8 +1,8 @@
 <?php
 
 /**
- * Demo Pages Pack
- * --------------------
+ * Demo App Pages Pack
+ * -------------------
  *
  * @noinspection PhpClassNamingConventionInspection    - Long class names are ok.
  * @noinspection PhpPropertyNamingConventionInspection - Property names with underscores are ok.
@@ -11,15 +11,15 @@
 
 declare(strict_types=1);
 
-namespace Pith\DemoApp\DemoPagesPack;
+namespace Pith\DemoApp\DemoAppPagesPack;
 
 use Pith\Framework\PithPack;
 
 /**
- * Class DemoThemePack
- * @package Pith\DemoApp\DemoPagesPack
+ * Class DemoAppPagesPack
+ * @package Pith\DemoApp\DemoAppPagesPack
  */
-class DemoPagesPack extends PithPack
+class DemoAppPagesPack extends PithPack
 {
-    public $access_level = 'world';
+    public string $access_level = 'world';
 }

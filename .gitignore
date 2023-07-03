@@ -1,13 +1,6 @@
-
 # .gitignore
 # ==========
 
-
-
-# Ignore composer.phar and vendor folder
-# --------------------------------------
-composer.phar
-vendor/
 
 
 
@@ -18,7 +11,43 @@ vendor/
 
 
 
+
 # Ignore IDE files
 # ------------------
 .idea/
 .vscode/
+
+
+# Ignore composer.phar and vendor folder
+# --------------------------------------
+composer.phar
+vendor/
+
+
+
+
+# Ignore dev-test folder
+# ----------------------
+dev-test/
+
+
+# Ignore sensitive info
+# ---------------------
+.env
+.env.php
+env.php
+
+
+# Ignore error log
+# ----------------
+php_errors.log
+
+
+# Ignore all log files
+# --------------------
+*.log
+
+# Ignore template cache
+# ---------------------
+/data/latte-cache/*.php
+/data/latte-cache/*.php.lock
