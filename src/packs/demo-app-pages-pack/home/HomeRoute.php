@@ -27,7 +27,7 @@ class HomeRoute extends PithRoute
  // public string $view_requisition = '\\Pith\\DemoApp\\DemoAppPagesPack\\HomeViewRequisition';
     public string $view             = '[^route_folder]/home-view.phtml';
     public string $view_adapter     = '\\Pith\\PhtmlViewAdapter2\\PithPhtmlViewAdapter2';
-    public string $layout           = '\\Pith\\Framework\\SharedThemePack\\GreenAndWhiteLayoutRoute';
+    public string $layout           = '\\Pith\\DemoApp\\DemoAppThemePack\\MainLayoutRoute';
 
     public string $page_title       = 'Home - ' . PITH_DEMO_PAGE_MAIN_TITLE;
     public string $meta_keywords    = 'home, demo, keyword, keywords';
