@@ -16,17 +16,20 @@
             "Pith\\DemoApp\\": [
                 "src/"
             ],
-            "Pith\\DemoApp\\DemoThemePack\\": [
-                "src/packs/demo-theme-pack/",
-                "src/packs/demo-theme-pack/demo-landing-layout",
-                "src/packs/demo-theme-pack/demo-main-layout",
-                "src/packs/demo-theme-pack/demo-main-sidebar"
+            "Pith\\DemoApp\\DemoAppPagesPack\\": [
+                "src/packs/demo-app-pages-pack/",
+                "src/packs/demo-app-pages-pack/home",
+                "src/packs/demo-app-pages-pack/page-2",
+                "src/packs/demo-app-pages-pack/page-3",
+                "src/packs/demo-app-pages-pack/user-page-1",
+                "src/packs/demo-app-pages-pack/user-page-2",
+                "src/packs/demo-app-pages-pack/login",
+                "src/packs/demo-app-pages-pack/sign-out",
+                "src/packs/demo-app-pages-pack/new-user-sign-up"
             ],
-            "Pith\\DemoApp\\DemoPagesPack\\": [
-                "src/packs/demo-pages-pack/",
-                "src/packs/demo-pages-pack/index-page",
-                "src/packs/demo-pages-pack/lorem-ipsum",
-                "src/packs/demo-pages-pack/john-1"
+            "Pith\\DemoApp\\DemoAppThemePack\\": [
+                "src/packs/demo-app-theme-pack/",
+                "src/packs/demo-app-theme-pack/demo-app-main-layout"
             ]
         }
     }
