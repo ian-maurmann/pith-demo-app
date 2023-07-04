@@ -1,2 +1,32 @@
 /* Demo App for Pith Framework */
+/* =========================== */
 
+
+/*noinspection CssRedundantUnit, CssUnresolvedCustomProperty*/
+@media all {
+
+    html, body {
+        background: linear-gradient(to right, var(--ox-color-tw-emerald-600), var(--ox-color-tw-emerald-400), var(--ox-color-tw-emerald-400), var(--ox-color-tw-emerald-600));
+
+        overflow: auto;
+    }
+
+    #layout-plate{
+        margin: 1em 2em 4em 2em;
+        background: rgba(255,255,255,0.3);
+        border-radius: 1.5em;
+    }
+
+    #layout-plate-banner{
+        padding: 2ex 2em;
+    }
+
+    #layout-plate-middle{
+        padding: 2ex 2em;
+        background: var(--ox-color-ibm1-warm-white-4);
+    }
+
+    #layout-plate-footer{
+        padding: 2ex 2em;
+    }
+}

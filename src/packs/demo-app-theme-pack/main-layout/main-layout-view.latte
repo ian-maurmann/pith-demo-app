@@ -24,28 +24,19 @@
         {insertMetaRobots(2)}
         {insertResourceFiles(2)}
     </head>
-    <body>
-        <div id="banner-area">
-            <div id="account-bar">
-                {insertPartial('Pith\\Framework\\SharedInfrastructure\\AccountBarPartialRoute')}
+    <body data-theme="pith-demo-app" data-color-mode="light">
+        <div id="layout-plate">
+            <div id="layout-plate-banner">
+                Banner
             </div>
-            Banner
-            <nav>
-                {insertPartial('Pith\\Framework\\SharedInfrastructure\\DemoNavLinksPartialRoute')}
-            </nav>
-        </div>
-        <div id="content-area">
-            <div id="plate">
+            <div id="layout-plate-middle">
                 <div id="content">
                     {insertPage()}
                 </div>
-
-                <hr/>
             </div>
-            <div id="footer">
+            <div id="layout-plate-footer">
                 {insertPartial('Pith\\Framework\\SharedInfrastructure\\FooterRoute')}
             </div>
         </div>
-
     </body>
 </html>
