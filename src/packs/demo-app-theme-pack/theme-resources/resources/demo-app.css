@@ -42,7 +42,8 @@
     #layout-plate-footer [data-layout-area-item="bottom-stripe-1"],
     #layout-plate-footer [data-layout-area-item="bottom-stripe-2"],
     #layout-plate-footer [data-layout-area-item="bottom-stripe-3"],
-    #layout-plate-footer [data-layout-area-item="bottom-stripe-4"]{
+    #layout-plate-footer [data-layout-area-item="bottom-stripe-4"],
+    #layout-plate-footer [data-layout-area-item="bottom-stripe-5"]{
         position: absolute;
         top: 0px;
         right:5px;
@@ -61,25 +62,29 @@
 
     #layout-plate-footer [data-layout-area-item="bottom-stripe-0"]{
         height: 10px;
-        right: 90px;
+        right: 110px;
     }
 
     #layout-plate-footer [data-layout-area-item="bottom-stripe-1"]{
         height: 20px;
-        right: 70px;
+        right: 90px;
     }
 
     #layout-plate-footer [data-layout-area-item="bottom-stripe-2"]{
         height: 30px;
-        right: 50px;
+        right: 70px;
     }
 
     #layout-plate-footer [data-layout-area-item="bottom-stripe-3"]{
         height: 40px;
-        right: 30px;
+        right: 50px;
     }
     #layout-plate-footer [data-layout-area-item="bottom-stripe-4"]{
         height: 50px;
+        right: 30px;
+    }
+    #layout-plate-footer [data-layout-area-item="bottom-stripe-5"]{
+        height: 60px;
         right: 10px;
     }
 
