@@ -35,8 +35,6 @@
         background: linear-gradient(100deg, var(--ox-color-ibm2-cyan-40), var(--ox-color-ibm2-cyan-70));
         */
 
-
-         */
         /*
         background: linear-gradient(to right, #7e68d4, #35297f);
         box-shadow: inset 0px 0px 6px -3px rgba(0,0,0,0.3);
@@ -48,6 +46,13 @@
         position: absolute;
         text-align: right;
         bottom: 1em;
+        right: 1em;
+    }
+
+    #layout-plate-banner [data-layout-area-item="banner-account-links"]{
+        position: absolute;
+        text-align: right;
+        top: 1em;
         right: 1em;
     }
 
