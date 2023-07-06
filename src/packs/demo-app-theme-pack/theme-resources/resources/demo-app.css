@@ -5,7 +5,13 @@
 /*noinspection CssRedundantUnit, CssUnresolvedCustomProperty*/
 @media all {
 
-    html, body {
+    html{
+        background: #059669;
+
+        overflow: auto;
+    }
+
+    body {
         background: linear-gradient(to right, var(--ox-color-tw-emerald-600), var(--ox-color-tw-emerald-400), var(--ox-color-tw-emerald-400), var(--ox-color-tw-emerald-600));
 
         overflow: auto;
@@ -64,6 +70,8 @@
         text-align: right;
         bottom: 1em;
         right: 1em;
+
+        user-select: none;
     }
 
     #layout-plate-banner [data-layout-area-item="banner-account-links"]{
