@@ -18,6 +18,7 @@
             ],
             "Pith\\DemoApp\\DemoAppPagesPack\\": [
                 "src/packs/demo-app-pages-pack/",
+                "src/packs/demo-app-pages-pack/account-bar",
                 "src/packs/demo-app-pages-pack/home",
                 "src/packs/demo-app-pages-pack/login",
                 "src/packs/demo-app-pages-pack/nav-links",
