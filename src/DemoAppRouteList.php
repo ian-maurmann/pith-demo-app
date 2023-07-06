@@ -37,6 +37,7 @@ class DemoAppRouteList extends PithRouteList
         ['route',       'GET',           '/resources/vendor/common-libraries/{filepath:.+}', '\\Pith\\Framework\\CommonLibrariesResourcePack\\CommonLibrariesResourceRoute'],
         ['route',       ['GET', 'POST'], '/',                                                '\\Pith\\DemoApp\\DemoAppPagesPack\\HomeRoute'],
         ['route',       ['GET', 'POST'], '/page-2',                                          '\\Pith\\DemoApp\\DemoAppPagesPack\\Page2Route'],
+        ['route',       ['GET', 'POST'], '/page-3',                                          '\\Pith\\DemoApp\\DemoAppPagesPack\\Page3Route'],
         ['route',       'GET',           '/resources/theme/{filepath:.+}',                   '\\Pith\\DemoApp\\DemoAppThemePack\\ThemeResourceRoute'],
     ];
 }
