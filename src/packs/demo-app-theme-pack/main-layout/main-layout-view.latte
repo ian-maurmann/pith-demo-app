@@ -24,28 +24,35 @@
         {insertMetaRobots(2)}
         {insertResourceFiles(2)}
     </head>
-    <body>
-        <div id="banner-area">
-            <div id="account-bar">
-                {insertPartial('Pith\\Framework\\SharedInfrastructure\\AccountBarPartialRoute')}
+    <body data-theme="pith-demo-app" data-color-mode="light">
+        <div id="layout-plate">
+            <div id="layout-plate-banner">
+                <a href="/"><img src="resources/theme/logo.png"></a>
+
+                <div data-layout-area-item="banner-account-links">
+                    {insertPartial('Pith\\DemoApp\\DemoAppPagesPack\\AccountBarPartialRoute')}
+                </div>
+
+                <div data-layout-area-item="banner-nav-links">
+                    {insertPartial('Pith\\DemoApp\\DemoAppPagesPack\\NavLinksRoute')}
+                </div>
+
             </div>
-            Banner
-            <nav>
-                {insertPartial('Pith\\Framework\\SharedInfrastructure\\DemoNavLinksPartialRoute')}
-            </nav>
-        </div>
-        <div id="content-area">
-            <div id="plate">
+            <div id="layout-plate-middle">
                 <div id="content">
                     {insertPage()}
                 </div>
-
-                <hr/>
             </div>
-            <div id="footer">
+            <div id="layout-plate-footer">
+                <div data-layout-area-item="bottom-stripe-0"></div>
+                <div data-layout-area-item="bottom-stripe-1"></div>
+                <div data-layout-area-item="bottom-stripe-2"></div>
+                <div data-layout-area-item="bottom-stripe-3"></div>
+                <div data-layout-area-item="bottom-stripe-4"></div>
+                <div data-layout-area-item="bottom-stripe-5"></div>
+
                 {insertPartial('Pith\\Framework\\SharedInfrastructure\\FooterRoute')}
             </div>
         </div>
-
     </body>
 </html>

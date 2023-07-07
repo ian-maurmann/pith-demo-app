@@ -18,14 +18,16 @@
             ],
             "Pith\\DemoApp\\DemoAppPagesPack\\": [
                 "src/packs/demo-app-pages-pack/",
+                "src/packs/demo-app-pages-pack/account-bar",
                 "src/packs/demo-app-pages-pack/home",
+                "src/packs/demo-app-pages-pack/login",
+                "src/packs/demo-app-pages-pack/nav-links",
+                "src/packs/demo-app-pages-pack/new-user-sign-up",
+                "src/packs/demo-app-pages-pack/sign-out",
                 "src/packs/demo-app-pages-pack/page-2",
                 "src/packs/demo-app-pages-pack/page-3",
                 "src/packs/demo-app-pages-pack/user-page-1",
-                "src/packs/demo-app-pages-pack/user-page-2",
-                "src/packs/demo-app-pages-pack/login",
-                "src/packs/demo-app-pages-pack/sign-out",
-                "src/packs/demo-app-pages-pack/new-user-sign-up"
+                "src/packs/demo-app-pages-pack/user-page-2"
             ],
             "Pith\\DemoApp\\DemoAppThemePack\\": [
                 "src/packs/demo-app-theme-pack/",

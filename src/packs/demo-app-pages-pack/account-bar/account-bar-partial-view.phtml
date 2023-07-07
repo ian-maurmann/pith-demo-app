@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Demo Nav Links View
+ *
+ * @noinspection PhpUndefinedVariableInspection - Variables defined outside scope
+ */
+
+declare(strict_types=1);
+?>
+<?php if($is_logged_in): ?>
+    <div>
+        <?php echo $display_name; ?>
+        |
+        <a href="/sign-out?token=<?php echo $anti_csrf_token; ?>">Sign Out</a>
+    </div>
+<?php else: ?>
+    <div>
+        <a href="/new-user-sign-up">New User</a>
+        |
+        <a href="/login">Login</a>
+    </div>
+<?php endif; ?>
