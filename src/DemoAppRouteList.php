@@ -36,6 +36,7 @@ class DemoAppRouteList extends PithRouteList
         ['route',       'GET',           '/resources/vendor/common-fonts/{filepath:.+}',     '\\Pith\\Framework\\CommonFontsResourcePack\\CommonFontsResourceRoute'],
         ['route',       'GET',           '/resources/vendor/common-libraries/{filepath:.+}', '\\Pith\\Framework\\CommonLibrariesResourcePack\\CommonLibrariesResourceRoute'],
         ['route',       ['GET', 'POST'], '/',                                                '\\Pith\\DemoApp\\DemoAppPagesPack\\HomeRoute'],
+        ['route',       ['GET', 'POST'], '/new-user-sign-up',                                '\\Pith\\DemoApp\\DemoAppPagesPack\\NewUserSignUpRoute'],
         ['route',       ['GET', 'POST'], '/page-2',                                          '\\Pith\\DemoApp\\DemoAppPagesPack\\Page2Route'],
         ['route',       ['GET', 'POST'], '/page-3',                                          '\\Pith\\DemoApp\\DemoAppPagesPack\\Page3Route'],
         ['route',       ['GET', 'POST'], '/user-page-1',                                     '\\Pith\\DemoApp\\DemoAppPagesPack\\UserPage1Route'],
