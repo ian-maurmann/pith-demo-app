@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f09e21f12232305bac754887b9e7451e",
+    "content-hash": "bc6667cf84e3394ddee53613e85a8be9",
     "packages": [
         {
             "name": "doctrine/cache",
@@ -1003,16 +1003,16 @@
         },
         {
             "name": "pith/framework",
-            "version": "v0.28.0",
+            "version": "v0.29.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ian-maurmann/pith-framework.git",
-                "reference": "6de2189f7e75ce630839c61b741b997f3d423018"
+                "reference": "718f01a469fe2dcaaf637f288cb8cbdc6a0bf666"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ian-maurmann/pith-framework/zipball/6de2189f7e75ce630839c61b741b997f3d423018",
-                "reference": "6de2189f7e75ce630839c61b741b997f3d423018",
+                "url": "https://api.github.com/repos/ian-maurmann/pith-framework/zipball/718f01a469fe2dcaaf637f288cb8cbdc6a0bf666",
+                "reference": "718f01a469fe2dcaaf637f288cb8cbdc6a0bf666",
                 "shasum": ""
             },
             "require": {
@@ -1152,9 +1152,9 @@
             "description": "Pith Framework - Another simple framework for PHP sites",
             "support": {
                 "issues": "https://github.com/ian-maurmann/pith-framework/issues",
-                "source": "https://github.com/ian-maurmann/pith-framework/tree/v0.28.0"
+                "source": "https://github.com/ian-maurmann/pith-framework/tree/v0.29.0"
             },
-            "time": "2023-07-01T04:29:06+00:00"
+            "time": "2023-07-10T21:21:20+00:00"
         },
         {
             "name": "psr/cache",
