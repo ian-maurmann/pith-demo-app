@@ -53,6 +53,8 @@ php_errors.log
 /data/latte-cache/*.php.lock
 
 
-# Ignore runnables
+# Ignore install script
 /pith
+
+# Ignore migrations script
 /mig
