@@ -51,3 +51,10 @@ php_errors.log
 # ---------------------
 /data/latte-cache/*.php
 /data/latte-cache/*.php.lock
+
+
+# Ignore install script
+/pith
+
+# Ignore migrations script
+/mig
