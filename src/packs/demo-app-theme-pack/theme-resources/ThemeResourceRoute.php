@@ -14,7 +14,7 @@ declare(strict_types=1);
 
 namespace Pith\DemoApp\DemoAppThemePack;
 
-use Pith\Framework\PithRoute;
+use Pith\Workflow\PithRoute;
 
 /**
  * Class ThemeResourceRoute
