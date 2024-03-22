@@ -10,10 +10,9 @@
 
 declare(strict_types=1);
 
-
 namespace Pith\DemoApp;
 
-use Pith\Framework\PithRouteList;
+use Pith\Workflow\PithRouteList;
 
 /**
  * Class DemoAppRouteList
