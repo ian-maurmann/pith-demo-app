@@ -15,7 +15,7 @@ declare(strict_types=1);
 
 namespace Pith\DemoApp\DemoAppPagesPack;
 
-use Pith\Framework\PithViewRequisition;
+use Pith\Workflow\PithViewRequisition;
 
 /**
  * Class LoginViewRequisition

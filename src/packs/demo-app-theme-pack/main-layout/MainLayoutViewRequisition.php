@@ -10,12 +10,11 @@
  * @noinspection PhpIllegalPsrClassPathInspection      - Using PSR-4 not PSR-0.
  */
 
-
 declare(strict_types=1);
 
 namespace Pith\DemoApp\DemoAppThemePack;
 
-use Pith\Framework\PithViewRequisition;
+use Pith\Workflow\PithViewRequisition;
 
 /**
  * Class MainLayoutViewRequisition
