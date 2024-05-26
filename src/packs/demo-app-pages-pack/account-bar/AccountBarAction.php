@@ -15,9 +15,9 @@ declare(strict_types=1);
 
 namespace Pith\DemoApp\DemoAppPagesPack;
 
-use Pith\Framework\PithAction;
 use Pith\Framework\PithAppRetriever;
 use Pith\Framework\PithException;
+use Pith\Workflow\PithAction;
 
 /**
  * Class AccountBarAction
