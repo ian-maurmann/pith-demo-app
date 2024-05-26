@@ -25,3 +25,27 @@ const SHARED_UI_USER_PERFORM_LOGOUT_LINK                = '/shared-ui/perform-lo
 const SHARED_UI_USER_LOGOUT_SUCCESS_LANDING_PAGE_LINK   = '/1111/1111/demo?logged-out=yes';
 const SHARED_UI_USER_LOGOUT_FAILURE_LANDING_PAGE_LINK   = '/1111/1111/demo?logged-out=no';
 const SHARED_UI_USER_CREATION_ON_SUCCESS_GOTO_PAGE_LINK = SHARED_UI_USER_LOGIN_FORM_PAGE_LINK;
+
+const PITH_PANEL_PATH = '/3333/3333/panel';
+const TASKS_URL_PATH   = '/shared-infrastructure/run/task';
+const TASKS_ROUTE_LIST = '\\Pith\\Framework\\SharedInfrastructure\\Tasks\\TasksRouteList';
+
+const PITH_IMPRESSION_LOG_LOCATION = 'logs/impressions-logs/';
+const PITH_TASK_LOG_LOCATION = 'logs/task-logs/';
+const PITH_TASK_OUTPUT_LOG_LOCATION = 'logs/task-output-logs/';
+const PITH_PHP_ERROR_LOG_LOCATION = 'logs/php-error-logs/';
+
+const PITH_TOUCHSTONE_FOLDER_LOCATION = 'cache/touchstones/';
+const PITH_LATTE_CACHE_PATH = './cache/latte-cache';
+
+const PITH_APP_TASK_WORKSPACES_LIST = '\\Pith\\Framework\\SharedInfrastructure\\Tasks\\TaskWorkspacesList';
+
+
+// Migration Paths,
+// The first namespace is the default when generating new migrations
+// The default can be overridden by specifying the namespace in the migration command
+// Example: php mig migrations:generate --namespace=Pith\\Framework\\TestMigration
+const PITH_MIGRATIONS_PATHS = [
+    'Pith\\Framework\\Migration' => './vendor/pith/framework/data/migrations',
+    'Pith\\DemoApp\\Migration' => './migrations',
+];

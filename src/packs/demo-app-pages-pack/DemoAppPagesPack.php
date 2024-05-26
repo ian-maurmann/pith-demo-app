@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Pith\DemoApp\DemoAppPagesPack;
 
-use Pith\Framework\PithPack;
+use Pith\Workflow\PithPack;
 
 /**
  * Class DemoAppPagesPack
